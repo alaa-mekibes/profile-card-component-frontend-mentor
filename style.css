@@ -52,7 +52,8 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background-color: var(--White)
+    background-color: var(--White);
+    box-shadow: 0px 20px 41px 10px hsla(228.9, 23.1%, 22.9%, 0.23)
 }
 .box .cover {
     border-top-left-radius: var(--Border-r);
