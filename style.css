@@ -1,0 +1,107 @@
+/* Start variables */
+:root {
+    /* Colors */
+
+        /* Primary */
+
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayishblue: hsl(227, 10%, 46%);
+--White: hsl(0, 0%, 100%);
+
+        /* Neutral */
+
+--Dark-gray: hsl(0, 0%, 59%);
+
+    /* Typography */
+
+--FontSize: 1.125rem;
+--Border-r: 10px
+}
+/* Strat Global rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body {
+    font-family: "Kumbh Sans", serif;
+    font-weight: 400;
+    background-color: var(--Dark-cyan);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 50vw top 45vh, right 51vw bottom 30vh
+}
+/* Start main */
+.box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: var(--White)
+}
+.box .cover {
+    border-top-left-radius: var(--Border-r);
+    border-top-right-radius: var(--Border-r)
+}
+.box .author {
+    text-align: center
+}
+.box .author .profile_pic {
+    position: relative;
+    padding-bottom: 4.5rem
+}
+.box .author .profile_pic img {
+    display: block;
+    max-width: 100%;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    border: 5px solid var(--White);
+    position: absolute;
+    top: 0;
+    left: 50%
+}
+.box .author span {
+    display: block
+}
+.box .author .my_info {
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 1.25rem
+}
+.box .author .my_info h2 {
+    font-size: var(--FontSize);
+    font-weight: 700;
+    color: var(--Very-dark-desaturated-blue);
+    margin-bottom: 10px
+}
+.box .author .my_info h2 span {
+    margin-left: 10px;
+    display: inline;
+    color: var(--Dark-grayishblue)
+}
+.box .author .my_info span:not(:first-child) {
+    color: var(--Dark-gray)
+}
+.box .author .Statistics {
+    --padding: 1.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: var(--padding);
+    padding-bottom: var(--padding)
+}
+.box .author .Statistics .stat span:first-of-type {
+    font-size: var(--FontSize);
+    font-weight: 700;
+    color: var(--Very-dark-desaturated-blue);
+    margin-bottom: 5px
+}
+.box .author .Statistics .stat span:last-of-type {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: var(--Dark-grayishblue)
+}
