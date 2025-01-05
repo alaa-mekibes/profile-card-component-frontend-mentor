@@ -24,7 +24,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/profile-card-component-solution-0g9MzetFo8
   
 - Live Site URL: https://alaa-mekibes.github.io/profile-card-component-frontend-mentor
 

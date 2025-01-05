@@ -33,7 +33,19 @@ body {
     height: 100vh;
     background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: left 50vw top 45vh, right 51vw bottom 30vh
+    background-position: left 50vw top 45vh, right 51vw bottom 30vh;
+    position: relative
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 /* Start main */
 .box {
