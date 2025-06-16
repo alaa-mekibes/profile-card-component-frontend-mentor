@@ -24,7 +24,8 @@ body {
     background-color: var(--Dark-cyan);
     display: grid;
     place-items: center;
-    height: 100vh;
+    padding: 1rem;
+    height: calc(100vh - 2rem);
     background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: left 50vw top 45vh, right 51vw bottom 30vh;
