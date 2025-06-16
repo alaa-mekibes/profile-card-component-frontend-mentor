@@ -67,7 +67,6 @@ body {
 .profile_pic img {
     display: block;
     max-width: 100%;
-    width: 100px;
     border-radius: 50%;
     margin: 0 auto;
     transform: translate(-50%, -50%);
