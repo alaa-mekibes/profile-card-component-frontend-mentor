@@ -24,9 +24,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/profile-card-component-solution-0g9MzetFo8
+- [Solution URL](https://www.frontendmentor.io/solutions/profile-card-component-solution-0g9MzetFo8)
   
-- Live Site URL: https://alaa-mekibes.github.io/profile-card-component-frontend-mentor
+- [Live Site URL](https://alaa-mekibes.github.io/profile-card-component-frontend-mentor)
 
 ## My process
 
@@ -36,6 +36,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - CSS custom properties
 - Flexbox
 - Grid
+- Mobile First
 
 ## Author
 
