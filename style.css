@@ -1,20 +1,14 @@
-/* Start variables */
 :root {
     /* Colors */
-
         /* Primary */
-
 --Dark-cyan: hsl(185, 75%, 39%);
 --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
 --Dark-grayishblue: hsl(227, 10%, 46%);
 --White: hsl(0, 0%, 100%);
-
         /* Neutral */
-
 --Dark-gray: hsl(0, 0%, 59%);
 
     /* Typography */
-
 --FontSize: 1.125rem;
 --Border-r: 10px
 }
@@ -49,24 +43,25 @@ body {
 }
 /* Start main */
 .box {
+    --box-shadow: hsla(228.9, 23.1%, 22.9%, 0.23);
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     background-color: var(--White);
-    box-shadow: 0px 20px 41px 10px hsla(228.9, 23.1%, 22.9%, 0.23)
+    box-shadow: 0px 20px 41px 10px var(--box-shadow)
 }
-.box .cover {
+.cover {
     border-top-left-radius: var(--Border-r);
     border-top-right-radius: var(--Border-r)
 }
-.box .author {
+.author {
     text-align: center
 }
-.box .author .profile_pic {
+.profile_pic {
     position: relative;
     padding-bottom: 4.5rem
 }
-.box .author .profile_pic img {
+.profile_pic img {
     display: block;
     max-width: 100%;
     width: 100px;
@@ -78,28 +73,28 @@ body {
     top: 0;
     left: 50%
 }
-.box .author span {
+.author span {
     display: block
 }
-.box .author .my_info {
+.my_info {
     border-bottom: 1px solid #EBEBEB;
     padding-bottom: 1.25rem
 }
-.box .author .my_info h2 {
+.my_info h2 {
     font-size: var(--FontSize);
     font-weight: 700;
     color: var(--Very-dark-desaturated-blue);
-    margin-bottom: 10px
+    margin-bottom: 0.625rem
 }
-.box .author .my_info h2 span {
-    margin-left: 10px;
+.my_info h2 span {
+    margin-left: 0.625rem;
     display: inline;
     color: var(--Dark-grayishblue)
 }
-.box .author .my_info span:not(:first-child) {
+.my_info span:not(:first-child) {
     color: var(--Dark-gray)
 }
-.box .author .Statistics {
+.statistics {
     --padding: 1.25rem;
     display: flex;
     justify-content: space-evenly;
@@ -107,14 +102,14 @@ body {
     padding-top: var(--padding);
     padding-bottom: var(--padding)
 }
-.box .author .Statistics .stat span:first-of-type {
+.stat span:first-of-type {
     font-size: var(--FontSize);
     font-weight: 700;
     color: var(--Very-dark-desaturated-blue);
-    margin-bottom: 5px
+    margin-bottom: 0.313rem
 }
-.box .author .Statistics .stat span:last-of-type {
-    font-size: 12px;
+.stat span:last-of-type {
+    font-size: 0.75rem;
     letter-spacing: 2px;
     color: var(--Dark-grayishblue)
 }
