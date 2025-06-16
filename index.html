@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,19 +12,19 @@
     <title>Profile card component</title>
 </head>
 <body>
-    <main>
+    <main class="main_container">
         <h1 class="visually-hidden">Alaa Mekibes Profile</h1>
-        <div class="box">
+        <section aria-label="my profile box" class="box">
             <img class="cover" src="images/bg-pattern-card.svg" alt="cover box">
             <div class="author">
                 <figure class="profile_pic">
                     <img src="images/image-victor.jpg" alt="my photo">
                 </figure>
-                <div class="my_info">
+                <article class="my_info">
                     <h2>Alaa Mekibes<span>19</span></h2>
                     <span>Oran</span>
-                </div>
-                <div class="Statistics">
+                </article>
+                <article aria-label="profile stats" class="Statistics">
                     <div class="stat">
                         <span>80K</span>
                         <span>Followers</span>
@@ -37,9 +37,9 @@
                         <span>1.4K</span>
                         <span>Photos</span>
                     </div>
-                </div>
+                </article>
             </div>
-        </div>
+        </section>
     </main>
 </body>
 </html>
